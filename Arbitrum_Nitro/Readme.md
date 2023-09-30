@@ -1,9 +1,9 @@
 <div align="center">
-<img alt="starknet logo" src="" width="800" >
+<img alt="arbitrum logo" src="https://github.com/Layer2es/Full-Node/blob/main/assets/Arbitrum_Nitro.jpg" width="800" >
   <h1 style="font-size: larger;">
-    <img src="" width="40">
+    <img src="https://github.com/Layer2es/Full-Node/blob/main/assets/arbitrum.png" width="40">
     <strong> Arbitrum Nitro: Guía para correr un full node</strong> 
-    <img src="" width="40">
+    <img src="https://github.com/Layer2es/Full-Node/blob/main/assets/arbitrum.png" width="40">
   </h1>
 
 </div>
@@ -75,7 +75,7 @@ Para esta etapa, se recomienda descargar Visual Studio Code, ya que facilita la 
 
 - Abrí una nueva terminal en VS Code.
 
-![Alt text](../assets/mage-2.png)
+![Alt text](../assets/image-2.png)
 
 - Navega hasta la carpeta "home" y crea una carpeta llamada "user" dentro de ella. Si encuentras problemas de permisos, puedes utilizar el siguiente comando dentro de /home:
 
