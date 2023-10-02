@@ -1,8 +1,8 @@
 <div align="center">
-<img alt="starknet logo" src="https://github.com/Layer2es/Full-Node/blob/main/assets/Ethereum.jpg" width="800" >
+<img alt="starknet logo" src="https://github.com/Layer2es/Full-Node/blob/main/assets/Ethereum.png" width="800" >
   <h1 style="font-size: larger;">
     <img src="https://github.com/Layer2es/Full-Node/blob/main/assets/Ethereum-Logo-PNG-Image-HD.png" width="40">
-    <strong> Guía completa para configurar un nodo de Ethereum: Desde la instalación hasta la sincronización</strong> 
+    <strong> Guía completa para configurar un nodo de Ethereum: </strong> 
     <img src="https://github.com/Layer2es/Full-Node/blob/main/assets/Ethereum-Logo-PNG-Image-HD.png" width="40">
   </h1>
 
