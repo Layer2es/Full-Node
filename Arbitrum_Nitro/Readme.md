@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="arbitrum logo" src="https://github.com/Layer2es/Full-Node/blob/main/assets/Arbitrum_Nitro.jpg" width="800" >
+<img alt="starknet logo" src="https://github.com/Layer2es/Full-Node/blob/main/assets/Arbitrum_Nitro.jpg" width="800" >
   <h1 style="font-size: larger;">
     <img src="https://github.com/Layer2es/Full-Node/blob/main/assets/arbitrum.png" width="40">
     <strong> Arbitrum Nitro: Guía para correr un full node</strong> 
@@ -228,7 +228,18 @@ max-file: "10"
 
 En **l2.chain-id**, debes asignar el valor **42161**, ya que la documentación de Arbitrum indica que ese es el Chain ID de Arbitrum One.
 
-![Alt text](../assets/image-11.png)
+### Endpoints de RPC Públicos
+
+Esta tabla proporciona una visión general de los endpoints de RPC públicos disponibles para diferentes cadenas de Arbitrum y los detalles necesarios para interactuar con ellos.
+
+| Nombre               | URL de RPC                           | ID de Cadena | Explorador de Bloques                   | Cadena Subyacente | Tecnología Utilizada | URL de Feed del Secuenciador                   | Endpoint del Secuenciador⚠️                           |
+|----------------------|--------------------------------------|--------------|----------------------------------------|-------------------|----------------------|--------------------------------------------|-----------------------------------------------------|
+| Arbitrum One         | https://arb1.arbitrum.io/rpc         | 42161        | https://arbiscan.io/                   | Ethereum          | Nitro (Rollup)       | wss://arb1.arbitrum.io/feed                 | https://arb1-sequencer.arbitrum.io/rpc              |
+| Arbitrum Nova        | https://nova.arbitrum.io/rpc        | 42170        | https://nova.arbiscan.io/              | Ethereum          | Nitro (AnyTrust)     | wss://nova.arbitrum.io/feed                | https://nova-sequencer.arbitrum.io/rpc             |
+| Arbitrum Goerli (Testnet) | https://goerli-rollup.arbitrum.io/rpc | 421613  | https://goerli.arbiscan.io              | Goerli            | Nitro (Rollup)       | wss://goerli-rollup.arbitrum.io/feed        | https://goerli-rollup-sequencer.arbitrum.io/rpc    |
+| Arbitrum Sepolia (Testnet) | https://sepolia-rollup.arbitrum.io/rpc | 421614 | https://sepolia-explorer.arbitrum.io/  | Sepolia           | Nitro (Rollup)       | wss://sepolia-rollup.arbitrum.io/feed       | https://sepolia-rollup-sequencer.arbitrum.io/rpc  |
+| Stylus Testnet       | https://stylus-testnet.arbitrum.io/rpc| 23011913    | https://stylus-testnet-explorer.arbitrum.io/ | Arbitrum Sepolia | Nitro (Rollup)       | wss://stylus-sepolia.arbitrum.io/feed       | https://stylus-testnet-sequencer.arbitrum.io/rpc |
+
 
 **El puerto en el que se ejecutará el RPC es 8547.**
 
