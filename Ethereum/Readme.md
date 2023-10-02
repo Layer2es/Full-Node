@@ -174,6 +174,7 @@ Es importante destacar que ejecutar un cliente con la mayoría del stake puede t
 En resumen, no te dejes llevar por la corriente y elige un cliente que no tenga la mayoría del porcentaje, como Nimbus y Besu, o cualquier otro que prefieras mientras no sean los dominantes.
 
 ![Alt text](../assets/image-22.png)
+
 Una vez que elegiste el cliente a utilizar, llega el momento de instalarlo en DappNode para poder utilizarlo. Esta parte es muy sencilla, te mostramos cómo se vería en pantalla:
 
 ![Alt text](../assets/image-23.png)
